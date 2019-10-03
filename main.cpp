@@ -3,13 +3,13 @@
 
 int main( int argc, char *argv[])
 {
-   /* string input;
-    string file = "test2.txt";
+    string input;
+    string file = "tuscias.txt";
 
     input = readData(file);
     cout << "data: " << input << endl;
-    cout << "hash: " << hash(input) << endl;*/
-    hash_k();
+    cout << "hash: " << hash(input) << endl;
+    //hash_k();
 
     return 0;
 }

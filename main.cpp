@@ -3,12 +3,9 @@
 
 int main( int argc, char *argv[])
 {
-    string input;
     string file = "skirtingasb.txt";
 
-    input = readData(file);
-    cout << "data: " << input << endl;
-    cout << "hash: " << hash(input) << endl;
+    cout << "hash: " << hash(readData(file)) << endl;
     //hash_k();
 
     return 0;

@@ -13,6 +13,7 @@ using std::cin;
 using std::endl;
 using std::string;
 using std::vector;
+using std::ifstream;
 using std::uniform_int_distribution;
 using std::mt19937;
 

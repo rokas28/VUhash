@@ -6,7 +6,8 @@
 string readFromFile(string file);
 string readData(string file);
 long long int seedGen(string str);
-string hash(long long int seed);
+string hash(string str);
+void hash_k();
 
 
 #endif //VUHASH_HASH_H

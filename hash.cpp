@@ -4,7 +4,7 @@
 string readFromFile(string file) {
 
     string str;
-    std::ifstream df(file);
+    ifstream df(file);
     if (!df) cout << "Duomenu failas nerastas" << endl;
     else {
     str.assign((std::istreambuf_iterator<char>(df) ),(std::istreambuf_iterator<char>()));
@@ -39,9 +39,9 @@ long long int seedGen(string str) {
     return seed;
 }
 
-string hash(long long int seed){
+string hash(string str){
 
-    mt19937 gen(seed);
+    mt19937 gen(seedGen(str));
     uniform_int_distribution<int> num(48, 57);
     uniform_int_distribution<int> clett(65, 70);
     uniform_int_distribution<int> lett(97, 122);
@@ -55,4 +55,24 @@ string hash(long long int seed){
         if (sym==3) hsh[i] = lett(gen);
     }
     return hsh;
+}
+
+void hash_k(){
+
+    ifstream df("konstitucija.txt");
+    if (!df) cout << "Duomenu failas nerastas" << endl;
+    string str;
+    vector<string> str_lines;
+    vector<string> hash_lines;
+    int a = 0;
+    while (std::getline(df,str)) {
+        str_lines.push_back(str);
+        a++;
+    }
+    for(int i = 0; i < a; i++){
+        hash_lines.push_back(hash(str_lines[i]));
+    }
+    for(int i = 0; i < a; i++){
+        cout << i << " eil: " << hash_lines[i] << endl;
+    }
 }

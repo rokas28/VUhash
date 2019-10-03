@@ -4,15 +4,11 @@
 int main( int argc, char *argv[])
 {
     string input;
-    string file;
-    file = "test.txt";
+    string file = "test2.txt";
 
-    input = readFromFile(file);
-    cout << seedGen(input)<< endl;
-    cout << hash(seedGen(input)) << endl;
-
-    cout << hash(seedGen("testas2")) << endl;
-    cout << hash(seedGen("Testas2")) << endl;
+    input = readData(file);
+    cout << "data: " << input << endl;
+    cout << "hash: " << hash(seedGen(input)) << endl;
 
     return 0;
 }

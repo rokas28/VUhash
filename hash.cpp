@@ -12,6 +12,22 @@ string readFromFile(string file) {
     return str;
 };
 
+string readData(string file){
+    cout << "Jei norite ivesti duomenis ranka, spauskite 1, jei norite juos imti is failo 2" << endl;
+    int a;
+    cin >> a;
+    string str;
+    if (a == 1){
+        cout << "Iveskite duomenis" << endl;
+        cin.ignore();
+        getline(cin,str);
+    }
+    if (a == 2){
+        str = readFromFile(file);
+    }
+    return str;
+}
+
 long long int seedGen(string str) {
     long long int seed;
     seed = str.length() * str.length() * 12345;

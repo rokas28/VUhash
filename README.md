@@ -6,7 +6,7 @@ Norint paleisti programą, jums reikia parsisiųsti norimą versiją ir paleisti
 ## [V0.1]() (2019-10-03)
 ### Pridėta:
 - Pirminė programos verisja: sukurta `hash` funkcija, pagal užduoties reikaavimus.
-- `hash_k();` funkcija hash'uoja kiekvieną `konstitucija.txt` failo eilutę.
+- `hash_k();` funkcija hash'uoja kiekvieną `konstitucija.txt` failo eilutę ir jas išveda į ekraną.
 - Testinių įvedimo failų pavyzdžiai.
 - `CMakeLists.txt` - Programos paleidimo failas.
 - `.gitignore` failas.
@@ -21,14 +21,14 @@ Norint paleisti programą, jums reikia parsisiųsti norimą versiją ir paleisti
 |  1a.txt          | uEDABy58CgoCjABADE0BC4F67gDqw4eFtoCdk3x4kBn8ECFcCq0jB7tk2qgq0401   |
 |  1b.txt          | ECF0A1iaB5B4Fd0Aie72bCl373tD28nEg694BCn3AdAD9C85cF8F6bBdAAC19n10   |          
 
-- Failai su daugiau nei 10000 simbolių(skirtingi):  17747  16861
+- Failai su daugiau nei 10000 simbolių(skirtingi): `10000a.txt`(17747 simboliai) ir `10000b.txt`(16861 simbolis)
 
 |  Failas          |  Hash'as                                                           |   
 |:----------------:|:------------------------------------------------------------------:| 
-|  10000a.txt      | 34BlACm2529y259C9hDs0wf8F9m8949fD9o5DC2hCCFoxACCjyh8EiC1BCFAn0DB   |
-|  10000b.txt      | sF8F0uaE8CCx5FecmD15j09C2B6AzsBeq2EAyf22BB6A3b5EjAg8kj11lA839vA2   | 
+|  skirtingasa.txt | 34BlACm2529y259C9hDs0wf8F9m8949fD9o5DC2hCCFoxACCjyh8EiC1BCFAn0DB   |
+|  skirtingasb.txt | sF8F0uaE8CCx5FecmD15j09C2B6AzsBeq2EAyf22BB6A3b5EjAg8kj11lA839vA2   | 
 
-- Failai su daugiau nei 10000 simbolių(panašūs):
+- Failai su daugiau nei 10000 simbolių(panašūs): panaudotas `konstitucija.txt` failas ir pridėta po vieną skirtingą raidę teksto gale
 
 |  Failas          | Hash'as                                                            |   
 |:----------------:|:------------------------------------------------------------------:| 

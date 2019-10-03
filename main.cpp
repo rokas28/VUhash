@@ -4,7 +4,7 @@
 int main( int argc, char *argv[])
 {
     string input;
-    string file = "tuscias.txt";
+    string file = "skirtingasb.txt";
 
     input = readData(file);
     cout << "data: " << input << endl;

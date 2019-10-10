@@ -9,5 +9,4 @@ long long int seedGen(string str);
 string hash(string str);
 void hash_k();
 
-
 #endif //VUHASH_HASH_H

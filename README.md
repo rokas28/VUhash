@@ -5,7 +5,7 @@ Norint paleisti programą, jums reikia parsisiųsti norimą versiją ir paleisti
 
 ## [V0.1]() (2019-10-03)
 ### Pridėta:
-- Pirminė programos verisja: sukurta `hash` funkcija, pagal užduoties reikaavimus.
+- Pirminė programos verisja: sukurta `hash` funkcija, pagal užduoties reikalavimus.
 - `hash_k();` funkcija hash'uoja kiekvieną `konstitucija.txt` failo eilutę ir jas išveda į ekraną.
 - Testinių įvedimo failų pavyzdžiai.
 - `CMakeLists.txt` - Programos paleidimo failas.

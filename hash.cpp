@@ -2,7 +2,6 @@
 #include "main.h"
 
 string readFromFile(string file) {
-
     string str;
     ifstream df(file);
     if (!df) cout << "Duomenu failas nerastas" << endl;
@@ -12,15 +11,21 @@ string readFromFile(string file) {
     return str;
 };
 
+string readFromConsole() {
+    string str;
+    cout << "Iveskite duomenis" << endl;
+    cin.ignore();
+    getline(cin,str);
+    return str;
+}
+
 string readData(string file){
     cout << "Jei norite ivesti duomenis ranka, spauskite 1, jei norite juos imti is failo 2" << endl;
     int a;
     cin >> a;
     string str;
     if (a == 1){
-        cout << "Iveskite duomenis" << endl;
-        cin.ignore();
-        getline(cin,str);
+        str = readFromConsole();
         }
     if (a == 2){
         str = readFromFile(file);
@@ -40,7 +45,6 @@ long long int seedGen(string str) {
 }
 
 string hash(string str){
-
     mt19937 gen(seedGen(str));
     uniform_int_distribution<int> num(48, 57);
     uniform_int_distribution<int> clett(65, 70);
@@ -66,7 +70,6 @@ void end_c(std::chrono::time_point<std::chrono::high_resolution_clock> &end) {
 }
 
 void hash_k(){
-
     std::chrono::time_point<std::chrono::high_resolution_clock> start, end;
     std::chrono::duration<double> durationCount;
 

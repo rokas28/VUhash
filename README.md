@@ -25,7 +25,7 @@ Norint paleisti programą, jums reikia parsisiųsti norimą versiją ir paleisti
 
 |  Failas          |  Hash'as                                                           |   
 |:----------------:|:------------------------------------------------------------------:| 
-|  skirtingasa.txt | 34BlACm2529y259C9hDs0wf8F9m8949fD9o5DC2hCCFoxACCjyh8EiC1BCFAn0DB   |
+|  skirtingasa.txt | qipBB530dC65378jaF2BA13bCdd9534F9FcCy8uE6BcCC1El57rxAeEDdhCEF7e3   |
 |  skirtingasb.txt | sF8F0uaE8CCx5FecmD15j09C2B6AzsBeq2EAyf22BB6A3b5EjAg8kj11lA839vA2   | 
 
 - Failai su daugiau nei 10000 simbolių(panašūs): panaudotas `konstitucija.txt` failas ir pridėta po vieną skirtingą raidę teksto gale
@@ -40,3 +40,5 @@ Norint paleisti programą, jums reikia parsisiųsti norimą versiją ir paleisti
 | Failas           | Hash'as                                                            |   
 |:----------------:|:------------------------------------------------------------------:| 
 | tuscias.txt      | pqDBDy9C8hpwjF0AeDFmjBFBhFtusbE4CEux016Cxz3BCBECBukDo1qegAAA3BCB   |
+
+- `Konstutucija.txt` eilučių hash'avimo laikas: 0.0439374sec.

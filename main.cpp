@@ -3,10 +3,8 @@
 
 int main( int argc, char *argv[])
 {
-    string file = "skirtingasb.txt";
-
-    cout << "hash: " << hash(readData(file)) << endl;
-    //hash_k();
+    cout << "hash: " << hash(readData(argv[1])) << endl;
+    //hash_k(); //funkcija skirta hash'uoti konstitucija.txt eilutes
 
     return 0;
 }

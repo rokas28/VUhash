@@ -21,7 +21,7 @@ string readData(string file){
         cout << "Iveskite duomenis" << endl;
         cin.ignore();
         getline(cin,str);
-    }
+        }
     if (a == 2){
         str = readFromFile(file);
     }
@@ -57,7 +57,18 @@ string hash(string str){
     return hsh;
 }
 
+void start_c(std::chrono::time_point<std::chrono::high_resolution_clock> &start) {
+    start = std::chrono::high_resolution_clock::now();
+}
+
+void end_c(std::chrono::time_point<std::chrono::high_resolution_clock> &end) {
+    end = std::chrono::high_resolution_clock::now();
+}
+
 void hash_k(){
+
+    std::chrono::time_point<std::chrono::high_resolution_clock> start, end;
+    std::chrono::duration<double> durationCount;
 
     ifstream df("konstitucija.txt");
     if (!df) cout << "Duomenu failas nerastas" << endl;
@@ -69,10 +80,14 @@ void hash_k(){
         str_lines.push_back(str);
         a++;
     }
+    start_c(start);
     for(int i = 0; i < a; i++){
         hash_lines.push_back(hash(str_lines[i]));
     }
+    end_c(end);
+    std::chrono::duration<double> time = end-start;
     for(int i = 0; i < a; i++){
         cout << i << " eil: " << hash_lines[i] << endl;
     }
+    cout << "Hash'uoti konstitucijos eilutes uztruko:" << time.count() << "sec"  << endl;
 }

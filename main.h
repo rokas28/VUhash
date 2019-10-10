@@ -7,6 +7,7 @@
 #include <string>
 #include <random>
 #include <algorithm>
+#include <chrono>
 
 using std::cout;
 using std::cin;

@@ -25,15 +25,15 @@ Norint paleisti programą, jums reikia parsisiųsti norimą versiją ir paleisti
 
 |  Failas          |  Hash'as                                                           |   
 |:----------------:|:------------------------------------------------------------------:| 
-|  skirtingasa.txt | qipBB530dC65378jaF2BA13bCdd9534F9FcCy8uE6BcCC1El57rxAeEDdhCEF7e3   |
-|  skirtingasb.txt | sF8F0uaE8CCx5FecmD15j09C2B6AzsBeq2EAyf22BB6A3b5EjAg8kj11lA839vA2   | 
+|  skirtingasa.txt | DBFA9n397F2l0icu04B0in845DBAhx35uEClme697EB40Eo0C23eDxEf46qktn24   |
+|  skirtingasb.txt | 702vnDBECAg1A85tx2bfr3C46FgoC9AE3ug5BAuFhCaD8b7uF5Fhp6mtBEtEqEBC   | 
 
 - Failai su daugiau nei 10000 simbolių(panašūs): panaudotas `konstitucija.txt` failas ir pridėta po vieną skirtingą raidę teksto gale
 
 |  Failas          | Hash'as                                                            |   
 |:----------------:|:------------------------------------------------------------------:| 
-|  panasusa.txt    |DEbCFk0jnE2A11B549AxDmfBEChxE6CenCFD7mF18l2jBo72CAoCnEr1BxwEh8zm    |
-|  panasusb.txt    |p1r7l9rv44CD7o4E7o3x0xCBFDD50nwsi0m8Bxu2sbb2504C8EDBDaw81EC892DA    |
+|  panasusa.txt    | Ej8Cibjxy2B548w6dFC6s821d67dBe0avEn3ADtD5opBBBsBndB0sc567yFE7z8z   |
+|  panasusb.txt    | n4sm09ACC82Bh93ABpwFkqxyipqB1F5d0Cb4rF12A19CA13oo99F85AA4FoEA77A   |
 
 - Tuščias failas
 
